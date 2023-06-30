@@ -1,0 +1,821 @@
+@media (max-width: 1200px){
+
+    header{
+        height: 80px;
+        width: 100%;
+        background: var(--black);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 100px;
+        padding: 0 40px 0 40px;
+    }
+    .logo-playdev{
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+    }
+    .logo-playdev p{
+        font-size: 20px;
+        margin-top: 9px;
+    }
+    .logo-playdev img{
+        width: 120px;
+        margin-top: 9px;
+    }
+    .navbar-list span{
+        font-size: 22px;
+    }
+    .redessociales{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background:linear-gradient(40deg, var(--pink), var(--purple) );
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        margin: 0 4rem 0 1rem;
+    }
+    .redessociales img{
+        width: 24px;
+        margin-top: 0.2rem;
+    }
+    #about p{
+        font-size: 20px;
+        padding: 3rem 8rem 5rem 8rem;
+    }
+    #info h2{
+        font-size: 38px;
+    }
+    #info h3{
+        font-size: 22px;
+        font-weight: 300;
+    }
+    #info hr{
+        width: 600px;
+    }
+    .formulario{
+        display: flex;
+        gap: 100px;
+    }
+    footer{
+        background: var(--black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding: 3rem 0 8rem 0;
+        width: 100%;
+        height: 40px;
+        color: var(--white);
+    }
+    footer .text-footer{
+        font-size: 20px;
+    }
+    footer h2{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    footer h3{
+        font-size: 18px;
+        font-weight: 100;
+    }
+}
+@media (max-width: 992px){
+
+    header{
+        height: 80px;
+        width: 100%;
+        background: var(--black);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 200px;
+        padding: 0 40px 0 40px;
+    }
+    .logo-playdev{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+    }
+    .logo-playdev p{
+        font-size: 20px;
+    }
+    .logo-playdev img{
+        width: 120px;
+        margin-top: 20px;
+    }
+    .navbar-list{
+        position: absolute;
+        top: 80px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background:linear-gradient(40deg, var(--pink), var(--purple) );
+        border-radius: 0 0 20px 20px;
+        padding: 50px 30px;
+        gap: 40px;
+        z-index: 2;
+        display: none;
+    }
+    .navbar-list span{
+        font-size: 30px;
+        color:#940733;
+        border-radius: 10px;
+    }
+    .menu-label{
+        display: flex;
+        cursor: pointer;
+        justify-content: flex-end;
+    }
+    .menu-label img{
+        height: 40px;
+        width: 50px;
+    }
+    #menu-toggle:checked + .navbar-list{
+        display: flex;
+    }
+    .redessociales{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background: none;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 4rem;
+    }
+    .redessociales img{
+        width: 24px;
+        margin-top: 0.2rem;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    #hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        margin-top: 2.5rem;
+    }
+    .hero-info h1{
+        font-size: 40px;
+    }
+    .hero-info h3{
+        font-size: 16px;
+        color: var(--lightgray);
+        font-weight: normal;
+    }
+    .info-btn{
+        width: 130px;
+        height: 38px;
+        background: var(--purple);
+        border-radius: 10px;
+        border-style: none;
+        color: var(--white);
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 52px;
+        transition: 0.4s ease-out;  
+    }
+    .hero-card{
+        width: 240px;
+        height: 280px;
+        background:linear-gradient(70deg, var(--pink), var(--purple) );
+        padding: 30px;
+        border-radius: 15px;
+    }
+    .hero-card img{
+        width: 190px;
+        height: 220px;
+    }
+    #about p{
+        font-size: 18px;
+        padding: 2rem 8rem 5rem 8rem;
+    }
+    .info-cards-container{
+        margin-top: 3rem;
+    }
+    #info h2{
+        font-size: 36px;
+        padding: 0 10rem 0 10rem;
+        text-align: center;
+    }
+    #info h3{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    #info hr{
+        width: 600px;
+    }
+    .formulario{
+        display: flex;
+        gap: 110px;
+    }
+    #contacto hr{
+        width: 250px;
+    }
+    footer{
+        background: var(--black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding: 3rem 0 8rem 0;
+        width: 100%;
+        height: 40px;
+        color: var(--white);
+    }
+    footer .text-footer{
+        font-size: 20px;
+    }
+    footer h2{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    footer h3{
+        font-size: 14px;
+        font-weight: 100;
+    }
+}
+@media (max-width: 768px){
+
+    .logo-playdev{
+        width: 780px;
+        display: flex;
+        gap: 20px;
+    }
+    .logo-playdev p{
+        font-size: 18px;
+    }
+    .logo-playdev img{
+        width: 130px;
+        margin-top: 15px;
+    }
+    .navbar-list{
+        font-size: 20px;
+        gap: 20px;
+        width: 680px;
+    }
+    .navbar-list span{
+        font-size: 30px;
+    }
+    #hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .hero-info h1{
+        font-size: 34px;
+    }
+    .hero-info h2{
+        font-size: 30px;
+    }
+    .hero-info h3{
+        font-size: 15px;
+    }
+    .info-btn{
+        width: 150px;
+        height: 40px;
+        background: var(--purple);
+        border-radius: 10px;
+        border-style: none;
+        color: var(--white);
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 30px;
+        transition: 0.4s ease-out;  
+    }
+    .hero-card{
+        width: 210px;
+        height: 230px;
+    }
+    .hero-card img{
+        width: 170px;
+        height: 200px;
+        padding: 0 1rem 1rem 0;
+    }
+    #about h2{
+        font-size: 36px;
+    }
+    #about hr{
+        width: 200px;
+    }
+    #about p{
+        font-size: 18px;
+        padding: 1rem 5rem 1rem 5rem;
+    }
+    #info h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #info h3{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    #info hr{
+        width: 400px;
+    }
+    .info-cards-container{
+        display: flex;
+        gap: 20px;
+        margin-top: 3rem;
+    }
+    .info-card{
+        background:linear-gradient(30deg, var(--pink), var(--purple));
+        width: 280px;
+        height: 350px;
+        gap: 10px;
+        padding: 10px;
+    }
+    .info-card img{
+        width: 20%;
+        padding: 5px 0 15px 0;
+    }
+    .info-card h3{
+        font-size: 25px;
+    } 
+    .info-card p{
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        padding: 10px 20px 10px 20px;
+    }
+    #contacto h2{
+        font-size: 40px;
+    }
+    #contacto hr{
+        width: 200px;
+    }
+    .formulario{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    form .texto{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    form #nombre{
+        width: 280px;
+        height: 28px;
+    }
+    form #email{
+        width: 280px;
+        height: 28px;
+    }
+    form #mensaje{
+        width: 280px;
+        height: 200px;
+    }
+    form .enviar{
+        width: 150px;
+        height: 38px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .encuentranos{
+        width: 330px;
+        gap: 15px;
+    }
+    .encuentranos h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 40px; 
+        height: 15rem; 
+    }
+    footer .logo img{
+        width: 160px;
+    }
+    footer h2{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    footer h3{
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .redes-footer img{
+        width: 27px;
+    }
+    .redes-footer{
+        width: 130px;
+        height: 40px;
+        border-radius: 18px;
+    }
+}
+@media (max-width: 576px){
+    .logo-playdev{
+        gap: 1px;
+        cursor: pointer;
+    }
+    .logo-playdev img{
+        width: 150px;
+        margin: 2rem 0 2rem 5rem;
+    }
+    .logo-playdev p{
+        display: none;
+    }
+    .menu-label{
+        cursor: pointer;
+        margin: 2rem 5rem 2rem 0;
+    }
+    .navbar-list{
+        font-size: 20px;
+        gap: 20px;
+        width: 500px;
+    }
+    .navbar-list span{
+        font-size: 30px;
+    }
+    #hero{
+        padding: 0 1rem 0 1rem;
+        flex-wrap: wrap;
+    }
+    .hero-card{
+        width: 12rem;
+        height: 14rem;
+    }
+    .hero-card img{
+        width: 10rem;
+        height: 12rem;
+        padding: 0 1.2rem 1.7rem 0;
+    }
+    .hero-info h1{
+        font-size: 25px;
+    }
+    .hero-info h2{
+        font-size: 22px;
+    }
+    .hero-info h3{
+        font-size: 15px;
+    }
+    .info-btn{
+        width: 130px;
+        height: 40px;
+        background: var(--purple);
+        border-radius: 10px;
+        border-style: none;
+        color: var(--white);
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+        transition: 0.4s ease-out;  
+    }
+    #info hr{
+        width: 320px;
+        height: 2px;
+        border-color: #FC0B56;
+        background: #FC0B56;
+    }
+    #info h2{
+        padding: 0 8rem 0 8rem;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    #info h3{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .encuentranos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 280px;
+        gap: 20px;
+        margin-bottom: 5rem;
+    }
+    .encuentranos .mapa{
+        width: 280px;
+        height: 250px;
+    }
+    footer{
+        background: var(--black);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 2rem 5rem 16rem 5rem;
+        width: 100%;
+        height: 60px;
+        color: var(--white);
+    }
+    footer .text-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    footer h2{
+        font-size: 14px;
+        font-weight: 300;
+        flex-wrap: wrap;
+    }
+    footer h3{
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .redes-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background:linear-gradient(40deg, var(--pink), var(--purple));
+        width: 110px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .redes-footer img{
+        width: 20px;
+    }
+}
+@media (max-width: 320px){
+
+    header {
+    background: var(--black);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 30px;
+    padding: 10px 24px 10px 24px;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--white);
+    }
+    .logo-playdev{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+    }
+    .logo-playdev p{
+        display: none
+    }
+    .logo-playdev img{
+        width: 160px;
+        margin: 0;
+    }
+    .menu-label{
+        cursor: pointer;
+        width: 50px;
+        margin-bottom: 2.5rem;
+    }
+    .navbar-list{
+        font-size: 18px;
+        gap: 25px;
+        width: 270px;
+        margin-top: 1rem;
+    }
+    .navbar-list span{
+        font-size: 30px;
+    } 
+    main{
+        background: var(--bg-gray);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white);
+    }  
+    #hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--bg-gray);
+        gap: 40px;
+    }
+    .hero-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        gap: 15px;
+    }
+    .hero-info h1{
+        font-size: 28px;
+        font-weight: 800;
+        color: var(--white);
+    }
+    .hero-info h2{
+        font-size: 23px;
+        font-weight: 400;
+    }
+    #info h3{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .hero-info span{
+        font-family: paprika;
+    }
+    .hero-info h3{
+        font-size: 16px;
+        color: var(--lightgray);
+        font-weight: normal;
+    }
+    .info-btn{
+        width: 250px;
+        height: 40px;
+        background: var(--purple);
+        border-radius: 10px;
+        border-style: none;
+        color: var(--white);
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 60px;
+        transition: 0.4s ease-out;  
+        margin: 0;
+    }
+    #info{
+        padding: 20px 0;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: var(--bg-gray);
+        width: 100%;
+    }
+    #info hr{
+        width: 250px;
+        height: 2px;
+        border-color: #FC0B56;
+        background: #FC0B56;
+    }
+    #info h2{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .info-cards-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 3rem;
+        width: 260px;
+    }
+    .info-card{
+        background:linear-gradient(30deg, var(--pink), var(--purple));
+        width: 250px;
+        height: 350px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 20px;
+    } 
+    .formulario{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 250px;
+    }
+    form .enviar{
+        background: var(--purple);
+        width: 250px;
+        height: 35px;
+        border-radius: 5px;
+        border-style: none;
+        color: var(--white);
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 2rem;
+        cursor: pointer;
+        transition: 0.4s;
+        align-self: center;
+    }
+    .encuentranos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 260px;
+        gap: 20px;
+        margin-bottom: 9rem;
+    }
+    .encuentranos h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .encuentranos .mapa{
+        width: 260px;
+        height: 300px;
+    }
+    form #nombre{
+        width: 260px;
+    }
+    form #email{
+        width: 260px;
+    }
+    form #mensaje{
+        width: 260px;
+    }
+    footer .text-footer{
+        display: flex;
+        text-align: center;
+        gap: 5px;
+    }
+    footer h2{
+        font-size: 14px;
+        font-weight: 300;
+        width: 250px;
+    }
+    .redes-footer img{
+        width: 23px;
+    }
+
+    /*Login*/
+
+    .login h1{
+        font-size: 34px;
+        font-weight: 800;
+    }
+    .login hr{
+        width: 280px;
+    }
+    .formulario-login{ 
+        width: 280px;
+        height: 400px;
+        padding: 16px 30px 32px 30px;
+    }
+    #email-login{
+        width: 220px;   
+    }
+    #contraseña-login{
+        width: 220px;
+    }
+
+    /*Register*/
+
+    .register hr{
+        width: 220px;
+    }
+    .formulario-register{
+        padding: 3rem 0 3rem 0;
+        width: 260px;
+        height: 500px;
+        padding: 40px 0 30px 15px;
+        margin: 40px 8px 40px 8px;
+        
+    }
+    .register-box{
+        margin: 1rem 0 2rem 0.5rem;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .register h1{
+        font-size: 36px;
+        font-weight: 800;
+    }
+    #name-register{
+        width: 210px;
+    }
+    #email-register{
+        width: 210px;
+    }
+    #contraseña-register{
+        width: 210px;
+    }
+    #confirmarcontraseña-register{
+        width: 210px;
+    }
+    .ingresar{
+        width: 150px;
+        height: 35px;
+        margin-left: 2.5rem;
+    }
+}
+

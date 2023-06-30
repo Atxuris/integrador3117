@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrador-Camada 3117</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-playdev">
+                <a href="index.html"><img src="./assets/img/Logo-PlayDev.svg" alt="Web-Developer"></a>
+                <p>|</p>
+                <p>Atxuris Lobo</p>
+        </div>
+
+        <nav class="navbar">
+            <label for="menu-toggle" class="menu-label"><img src="./assets/img/Menu.svg"alt="menu"></label>
+            <input type="checkbox" id="menu-toggle">
+
+            <ul class="navbar-list">
+                    <li><a href="index.html"><span>Inicio</span></li></a>
+                    <li><a href="#">Portfolio</li></a>
+                    <li><a href="#">Contacto</li></a>
+                    <li><a href="register.html">Registro</li></a>
+                    <li><a href="login.html">Login</li></a>
+
+                    <div class="redessociales">
+                        <a href="#"><img src="./assets/img/Linkedin.svg" alt="Linkedin"></a>
+                        <a href="#"><img src="./assets/img/Github.svg" alt="Github"></a>
+                    </div>
+            </ul> 
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-info">
+                <h2>¡Hola a todos!</h2>
+                <h1>Soy<span> Atxuris Lobo</span></h1>
+                <h3>Estudiante de programación FullStack en Nucba</h3>
+                <button class="info-btn"><a href="#">Más info</a></button>
+            </div>
+
+            <div class="hero-card">
+                <img src="./assets/img/hola.png" alt="">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <hr>
+            <p>¡Hola, qué tal! Soy Atxuris Lobo, actualmente soy estudiante de Desarrollo Fullstack y busco darle a mis proyectos un enfoque profesional pero a la vez fresco y dinámico. Tengo experiencia en diseño web, frontend y backend, puedo ofrecerte soluciones a medida para destacar en el mundo digital. Con JavaScript, React JS y Node JS puedo crear sitios web y aplicaciones sorprendentes, mientras que mi objetivo es hacer que el proceso de desarrollo sea agradable y divertido. Resido en Buenos Aires, Argentina y me comprometo a brindarte un servicio confiable y de calidad. Adicionalmente, al registrarte en mi pág tendrás acceso a multiples beneficios para poder concretar el proyecto que tienes en mente.
+            ¡Contáctame para convertir tus ideas en realidad y construir juntos el futuro digital que deseas!</p>
+
+        </section>
+
+        <section id="info">
+            <h2>FullStack Web Developer</h2>
+            <hr>
+
+            <h3>A continuación te cuento algunas de mis habilidades como FullStack Web Developer.</h3>
+            
+                <div class="info-cards-container">
+                    <div class="info-card">
+                        <img src="./assets/img/pantone.png" alt="">
+                        <h3>Diseño Web</h3>
+                        <p>Me dedico a diseñar páginas web de principio a fin, desde la etapa inicial de prototipado hasta la implementación de características personalizadas, creando sitios web responsivos y altamente funcionales.</p>
+                    </div>
+
+                    <div class="info-card">
+                        <img src="./assets/img/monitor.png" alt="">
+                        <h3>Frontend</h3>
+                        <p>Me apasiona el desarrollo web, razón por la que estoy al tanto de las últimas tendencias y tecnologías en el campo del frontend, esto me permite crear sitios web modernos, responsivos y amigables con el usuario.</p>
+                    </div>
+
+                    <div class="info-card">
+                        <img src="./assets/img/revelador.png" alt="">
+                        <h3>Backend</h3>
+                        <p>Con lenguajes como NodeJS, puedo construir bases de datos sólidas y potentes que impulsan el funcionamiento de aplicaciones web. Mi enfoque en la lógica y la seguridad me permite crear sistemas eficientes y escalables.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <img src="./assets/img/desarrollo-web.png" alt="">
+                        <h3>JavaScript</h3>
+                        <p>Mis habilidades con JavaScript me permiten llevar mis proyectos al siguiente nivel, es mi herramienta principal para hacer realidad las ideas de mis clientes y ofrecer resultados de alta calidad.</p>
+                    </div>
+
+                    <div class="info-card">
+                        <img src="./assets/img/diseno-de-respuesta.png" alt="">
+                        <h3>React JS</h3>
+                        <p>Con React JS puedo crear interfaces de usuario modernas y eficientes. Manejo los conceptos y principios de React, y puedo construir aplicaciones web dinámicas y escalables.</p>
+                    </div>
+
+                    <div class="info-card">
+                        <img src="./assets/img/diseno-web.png" alt="">
+                        <h3>Node JS</h3>
+                        <p>Tengo experiencia en API RESTful, manipulación de bases de datos y la implementación de servicios en la nube. Con Node JS puedo desarrollar servicios backend eficientes y robustos.</p>
+                    </div>
+                </div>
+        </section>
+
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+         
+            <hr>
+            
+            <div class="contacto-info">
+                <div class="formulario">
+                    <form>
+                        <label class="texto" for="nombre">Nombre completo:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre"/>
+
+                        <label class="texto" for="email">Email:</label>
+                        <input type="text" name="email" id="email" placeholder="Correo Electrónico"/>
+
+                        <label class="texto" for="Mensaje">Mensaje:</label>
+                        <textarea name="Mensaje" id="mensaje" cols="43" rows="5"></textarea>
+                        
+                        <input class="enviar" type="submit" name="enviar" value="Enviar"/>
+                    </form>
+
+
+                    <div class="encuentranos">
+                        <h3>Ciudad Autónoma de Buenos Aires, Argentina.</h3>
+                        
+                        <h3>Telf: 11 1234567</h3>
+                        
+                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.0642823270905!2d-58.413233684771086!3d-34.577239980466395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57a416cbf91%3A0xf6fad65042f6daf7!2sAv.%20del%20Libertador%203000%2C%20C1425%20CABA!5e0!3m2!1ses-419!2sar!4v1655856223135!5m2!1ses-419!2sar" style="border-radius: 8px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="logo">
+            <a href="index.html"><img src="./assets/img/Logo-PlayDev.svg" alt="logo-footer" width="150px"></a> 
+        </div>
+        
+        <div class="text-footer">
+            <h2><a href="#">Políticas de privacidad | Términos y condiciones</a></h2>
+        
+            <h3>&copy;2023 PlayDev | Derechos reservados</h3>
+
+            <h2>Hecho con<span>💖</span>por Atxuris Lobo</h2>
+        </div>
+
+        <div class="redes-footer">
+            <a href="#"><img src="./assets/img/Linkedin.svg" alt="Linkedin"></a>
+            <a href="#"><img src="./assets/img/Github.svg" alt="Github"></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
